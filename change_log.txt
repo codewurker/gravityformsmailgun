@@ -1,0 +1,23 @@
+### 1.4.0 | 2024-03-28
+- Added support for CC and BCC values when sending a notification.
+- Updated the documentation link for verifying domains to a more helpful documentation page.
+- Fixed an issue where the "find your private API Key" link on the settings page is invalid.
+- Fixed an issue where the links in the notification page are not redirecting the user to the correct Mailgun documentation pages.
+
+### 1.3 | 2020-09-29
+- Added support for Gravity Forms 2.5.
+
+### 1.2 | 2020-04-30
+- Added translations for Hebrew, Hindi, Japanese, and Turkish.
+- Added support for sending result notes.
+- Added gform_mailgun_send_email_failed hook to allow developers to take additional actions when email sending fails.
+- Fixed a PHP fatal error that occurs on the notification configuration page when the API request fails.
+- Improved logging to include notification id, notification name, and entry id in the sending process.
+- Fix merge tags not being replaced in the From Name.
+
+### 1.1 | 2018-11-15
+- Add support for choosing Mailgun regions.
+- Fix issue with merge tags not being replaced in BCC and Reply To headers.
+
+### 1.0 | 2018-11-05
+- It's all new!
